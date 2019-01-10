@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\obj\Debug\FibonacciProject.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\bin\Debug\FibonacciProject.Tests.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\bin\Debug\FibonacciProject.Tests.pdb
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\bin\Debug\FibonacciProject.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\bin\Debug\FibonacciProject.pdb
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\obj\Debug\FibonacciProject.Tests.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject.Tests\obj\Debug\FibonacciProject.Tests.pdb

@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\bin\Debug\BowlingKata.Tests.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\bin\Debug\BowlingKata.Tests.pdb
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\bin\Debug\BowlingKataProject.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\bin\Debug\BowlingKataProject.pdb
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\obj\Debug\BowlingKata.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\obj\Debug\BowlingKata.Tests.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKata.Tests\obj\Debug\BowlingKata.Tests.pdb

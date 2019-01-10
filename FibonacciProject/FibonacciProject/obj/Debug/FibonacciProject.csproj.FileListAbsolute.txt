@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\obj\Debug\FibonacciProject.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\bin\Debug\FibonacciProject.dll.config
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\bin\Debug\FibonacciProject.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\bin\Debug\FibonacciProject.pdb
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\obj\Debug\FibonacciProject.dll
+C:\Users\Admin\Documents\TDD Course\FibonacciProject\FibonacciProject\obj\Debug\FibonacciProject.pdb

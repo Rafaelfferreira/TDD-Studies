@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKataProject\bin\Debug\BowlingKataProject.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKataProject\bin\Debug\BowlingKataProject.pdb
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKataProject\obj\Debug\BowlingKataProject.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKataProject\obj\Debug\BowlingKataProject.dll
+C:\Users\Admin\Documents\TDD Course\BowlingKataProject\BowlingKataProject\obj\Debug\BowlingKataProject.pdb
