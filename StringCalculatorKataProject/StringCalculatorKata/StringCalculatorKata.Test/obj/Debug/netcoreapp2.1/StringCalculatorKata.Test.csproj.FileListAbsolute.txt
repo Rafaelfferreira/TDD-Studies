@@ -1,0 +1,17 @@
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.Test.deps.json
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.Test.runtimeconfig.json
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.Test.runtimeconfig.dev.json
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.Test.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.Test.pdb
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\bin\Debug\netcoreapp2.1\StringCalculatorKata.pdb
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.csprojAssemblyReference.cache
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.AssemblyInfo.cs
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.csproj.CopyComplete
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.dll
+C:\Users\Rafael\Documents\TDD-Studies\StringCalculatorKataProject\StringCalculatorKata\StringCalculatorKata.Test\obj\Debug\netcoreapp2.1\StringCalculatorKata.Test.pdb
