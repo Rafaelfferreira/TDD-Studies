@@ -72,25 +72,69 @@ namespace StringCalculatorKata.Test
         }
 
         [TestMethod]
-        public void GivenMoreThan2NumbersOnlyAddsTheFirstTwo()
+        public void GivenMoreThan2NumberAddsAllOfThem()
         {
             //testing first value
             //act
-            int result = calc.Add("3,4,6");
+            int result = calc.Add("8,9,2");
             //assert
-            Assert.AreEqual(7, result);
+            Assert.AreEqual(19, result);
+
+            //testing second value
+            //act
+            result = calc.Add("1,1,1,1,1,1,1,1,5");
+            //assert
+            Assert.AreEqual(13, result);
+
+            //testing third value
+            //act
+            result = calc.Add("4,4,4,4");
+            //assert
+            Assert.AreEqual(16, result);
+        }
+
+        [TestMethod]
+        public void AcceptsEntriesWithMultipleLines()
+        {
+            //testing first value
+            //act
+            int result = calc.Add("1\n2,3");
+            //assert
+            Assert.AreEqual(6, result);
 
             //testing first value
             //act
-            result = calc.Add("453,4818,1516");
+            result = calc.Add("2\n4\n8\n2");
             //assert
-            Assert.AreEqual(5271, result);
+            Assert.AreEqual(16, result);
 
             //testing first value
             //act
-            result = calc.Add("3,-4,6");
+            result = calc.Add("1\n4");
             //assert
-            Assert.AreEqual(-1, result);
+            Assert.AreEqual(5, result);
+        }
+
+        [TestMethod]
+        public void AcceptsDifferentDelimitators()
+        {
+            //testing first value
+            //act
+            int result = calc.Add("//;\n1;2");
+            //assert
+            Assert.AreEqual(3, result);
+
+            //testing first value
+            //act
+            result = calc.Add("//a\n2a3\n5");
+            //assert
+            Assert.AreEqual(10, result);
+
+            //testing first value
+            //act
+            result = calc.Add("//poo\n9poo8poo1\n2");
+            //assert
+            Assert.AreEqual(20, result);
         }
     }
 }
