@@ -44,9 +44,9 @@ namespace StringCalculatorKata.Test
 
             //testing third value
             //act
-            result = calc.Add("-5");
+            result = calc.Add("5");
             //assert
-            Assert.AreEqual(-5, result);
+            Assert.AreEqual(5, result);
         }
 
         [TestMethod]
@@ -66,9 +66,9 @@ namespace StringCalculatorKata.Test
 
             //testing first value
             //act
-            result = calc.Add("-5,7");
+            result = calc.Add("5,7");
             //assert
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(12, result);
         }
 
         [TestMethod]
@@ -135,6 +135,14 @@ namespace StringCalculatorKata.Test
             result = calc.Add("//poo\n9poo8poo1\n2");
             //assert
             Assert.AreEqual(20, result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentOutOfRangeException))]
+        public void ThrowsExceptionsWhenNegativeNumbersAreUsed()
+        {
+            //act
+            int result = calc.Add("-5");
         }
     }
 }
