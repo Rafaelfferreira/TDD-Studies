@@ -35,7 +35,10 @@ namespace StringCalculatorKata
                 
                 for(int i=0; i<digits.Length; i++)
                 {
-                    sum += System.Convert.ToInt32(digits[i]); //adds each number to the int sum
+                    if (System.Convert.ToInt32(digits[i]) >= 0)
+                        sum += System.Convert.ToInt32(digits[i]); //adds each number to the int sum
+                    else
+                        throw new System.ArgumentException("Digits can not be negative numbers");
                 }
                 return sum;
             }

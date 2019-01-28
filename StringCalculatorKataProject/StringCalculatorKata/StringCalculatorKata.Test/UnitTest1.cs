@@ -102,13 +102,13 @@ namespace StringCalculatorKata.Test
             //assert
             Assert.AreEqual(6, result);
 
-            //testing first value
+            //testing second value
             //act
             result = calc.Add("2\n4\n8\n2");
             //assert
             Assert.AreEqual(16, result);
 
-            //testing first value
+            //testing third value
             //act
             result = calc.Add("1\n4");
             //assert
@@ -124,13 +124,13 @@ namespace StringCalculatorKata.Test
             //assert
             Assert.AreEqual(3, result);
 
-            //testing first value
+            //testing second value
             //act
             result = calc.Add("//a\n2a3\n5");
             //assert
             Assert.AreEqual(10, result);
 
-            //testing first value
+            //testing third value
             //act
             result = calc.Add("//poo\n9poo8poo1\n2");
             //assert
@@ -138,11 +138,33 @@ namespace StringCalculatorKata.Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(System.ArgumentOutOfRangeException))]
+        [ExpectedException(typeof(System.ArgumentException))]
         public void ThrowsExceptionsWhenNegativeNumbersAreUsed()
         {
+            //act //the assertion is done automatically by catching the thrown exception
+            int result = calc.Add("3,2,-6");
+        }
+
+        [TestMethod]
+        public void NegativeNumbersAreIgnored()
+        {
+            //testing first value
             //act
-            int result = calc.Add("-5");
+            int result = calc.Add("500,1000");
+            //assert
+            Assert.AreEqual(500, result);
+
+            //testing second value
+            //act
+            result = calc.Add("//ree\n50ree60ree5000");
+            //assert
+            Assert.AreEqual(110, result);
+
+            //testing third value
+            //act
+            result = calc.Add("8000");
+            //assert
+            Assert.AreEqual(0, result);
         }
     }
 }
