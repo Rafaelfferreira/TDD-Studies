@@ -38,9 +38,9 @@ namespace StringCalculatorKata.Test
 
             //testing second value
             //act
-            result = calc.Add("456186135");
+            result = calc.Add("456");
             //assert
-            Assert.AreEqual(456186135, result);
+            Assert.AreEqual(456, result);
 
             //testing third value
             //act
@@ -60,9 +60,9 @@ namespace StringCalculatorKata.Test
 
             //testing first value
             //act
-            result = calc.Add("456125,4847");
+            result = calc.Add("456,484");
             //assert
-            Assert.AreEqual(460972, result);
+            Assert.AreEqual(940, result);
 
             //testing first value
             //act
@@ -146,11 +146,11 @@ namespace StringCalculatorKata.Test
         }
 
         [TestMethod]
-        public void NegativeNumbersAreIgnored()
+        public void NumbersBiggerThan1000AreIgnored()
         {
             //testing first value
             //act
-            int result = calc.Add("500,1000");
+            int result = calc.Add("500,1001");
             //assert
             Assert.AreEqual(500, result);
 
@@ -165,6 +165,22 @@ namespace StringCalculatorKata.Test
             result = calc.Add("8000");
             //assert
             Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void AllowMultipleDelimiters()
+        {
+            //testing first value
+            //act
+            int result = calc.Add("//[*][%]\n1*2%3");
+            //assert
+            Assert.AreEqual(6, result);
+
+            //testing second value
+            //act
+            result = calc.Add("//[poo][%]\n5\n4poo2%3");
+            //assert
+            Assert.AreEqual(14, result);
         }
     }
 }

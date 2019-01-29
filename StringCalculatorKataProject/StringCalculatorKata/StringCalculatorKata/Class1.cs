@@ -35,9 +35,9 @@ namespace StringCalculatorKata
                 
                 for(int i=0; i<digits.Length; i++)
                 {
-                    if (System.Convert.ToInt32(digits[i]) >= 0)
+                    if (System.Convert.ToInt32(digits[i]) < 1001 && System.Convert.ToInt32(digits[i]) > 0)
                         sum += System.Convert.ToInt32(digits[i]); //adds each number to the int sum
-                    else
+                    else if (System.Convert.ToInt32(digits[i]) < 0)
                         throw new System.ArgumentException("Digits can not be negative numbers");
                 }
                 return sum;
