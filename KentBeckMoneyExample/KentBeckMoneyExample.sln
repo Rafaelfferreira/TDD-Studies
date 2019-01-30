@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KentBeckMoneyExample", "KentBeckMoneyExample\KentBeckMoneyExample.csproj", "{CC393AAF-1141-437D-BF32-676BED818C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KentBeckMoneyExample.Test", "KentBeckMoneyExample.Test\KentBeckMoneyExample.Test.csproj", "{882A418F-90F1-4D91-A2B0-007F863A5B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC393AAF-1141-437D-BF32-676BED818C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC393AAF-1141-437D-BF32-676BED818C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC393AAF-1141-437D-BF32-676BED818C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC393AAF-1141-437D-BF32-676BED818C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882A418F-90F1-4D91-A2B0-007F863A5B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882A418F-90F1-4D91-A2B0-007F863A5B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882A418F-90F1-4D91-A2B0-007F863A5B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882A418F-90F1-4D91-A2B0-007F863A5B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B04A8006-FF47-412B-8C0E-1226F2254908}
+	EndGlobalSection
+EndGlobal
